@@ -1,0 +1,40 @@
+#showtooltip Kill Command
+/petattack
+/cast [mod:shift] Bestial Wrath; [spec:1] Kill Command; Dire Beast
+
+
+#showtooltip ShotsSpam
+/petattack
+/castsequence reset=combat Barbed Shot, Barbed Shot, Arcane Shot, Cobra Shot, Kill Shot, Arcane Shot, Arcane Shot
+
+#showtooltip ShotsSpam
+/petattack
+/castsequence reset=combat Barbed Shot, Barbed Shot, Multi-Shot, Multi-Shot, Death Chakram, Cobra Shot 
+
+
+### Pet Ref
+https://wowpedia.fandom.com/wiki/Useful_macros_for_hunters#:~:text=Left%20clicking%20while%20holding%20SHIFT,it%20will%20cast%20Dismiss%20Pet.
+
+#showtooltip Call Pet
+/cast [mod]Revive Pet; [@pet,dead]Revive Pet; [nopet]Call Pet 1; Mend Pet
+
+#showtooltip StopAttack
+/stopattack
+/petfollow
+/petpassive
+
+#showtooltip DragonFlightMounts
+/cast [nomod] Cliffside Wylderdrake
+/cast [mod:Shift] Highland Drake
+/cast [mod:Alt] Windborne Velocidrake
+/cast [mod:Ctrl] Renewed Proto-Drake
+/dismount
+
+#showtooltip RandomMounts
+/userandom [flyable] Blue Proto-Drake,Bronze Drake, Jade Bright Foreseer; Armored Brown Bear, Black War Mammoth, Gray Ram
+/dismount
+
+#showtooltip ShotsSpam
+/petattack
+/castsequence reset=combat Barbed Shot, Barbed Shot, Multi-Shot, Multi-Shot, Death Chakram, Cobra Shot 
+
