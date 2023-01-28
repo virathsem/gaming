@@ -1,6 +1,20 @@
+WORKING
+#showtooltip ShotSpam
+/petattack
+/castsequence reset=10  Barbed Shot, Barbed Shot, Multi-Shot, Multi-Shot, Kill Command, Cobra Shot, Cobra Shot, Multi-Shot, Multi-Shot, Barbed Shot, Kill Command
+
+/cast [mod:alt] Growl
+/cast [mod:shift] Kill Shot
+
+#showtooltip Beast
+/cast [nomod] Dire Beast
+/cast [mod:Shift] Death Chakram
+/cast [mod:Alt] Bestial Wrath
+
+
 #showtooltip Kill Command
 /petattack
-/cast [mod:shift] Bestial Wrath; [spec:1] Kill Command; Dire Beast
+/cast [mod:shift] Bestial Wrath; [spec:1] Kill Command, Multi-Shot
 
 
 #showtooltip ShotsSpam
@@ -10,6 +24,8 @@
 #showtooltip ShotsSpam
 /petattack
 /castsequence reset=combat Barbed Shot, Barbed Shot, Multi-Shot, Multi-Shot, Death Chakram, Cobra Shot 
+
+/cast [nomod] Barbed Shot, Barbed Shot
 
 
 ### Pet Ref
@@ -36,5 +52,19 @@ https://wowpedia.fandom.com/wiki/Useful_macros_for_hunters#:~:text=Left%20clicki
 
 #showtooltip ShotsSpam
 /petattack
-/castsequence reset=combat Barbed Shot, Barbed Shot, Multi-Shot, Multi-Shot, Death Chakram, Cobra Shot 
+/castsequence reset=6 Barbed Shot, Barbed Shot, Multi-Shot, Multi-Shot, Kill Command, Cobra Shot 
+
+
+
+
+
+
+
+/cast Barbed Shot
+/cast Death Chakram
+/castsequence Multi-Shot, Kill Command
+/cast Bestial Wrath
+/cast Barbed Shot
+/castsequence Multi-Shot, Kill Command
+/cast Kill Shot
 
