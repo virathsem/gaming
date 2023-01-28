@@ -1,15 +1,27 @@
 WORKING
-#showtooltip ShotSpam
+#showtooltip Spam Shots
 /petattack
 /castsequence reset=10  Barbed Shot, Barbed Shot, Multi-Shot, Multi-Shot, Kill Command, Cobra Shot, Cobra Shot, Multi-Shot, Multi-Shot, Barbed Shot, Kill Command
 
 /cast [mod:alt] Growl
 /cast [mod:shift] Kill Shot
 
-#showtooltip Beast
+#showtooltip Beast Rage
 /cast [nomod] Dire Beast
 /cast [mod:Shift] Death Chakram
 /cast [mod:Alt] Bestial Wrath
+
+
+#showtooltip Heals
+/cast [combat] Exhilaration
+/cast [mod:Shift,combat] Gift of the Naaru
+/cast [mod:Alt,combat] Fortitude of the Bear
+
+
+#showtooltip Heals
+/castsequence reset=combat Exhilaration, Gift of the Naaru, Fortitude of the Bear
+
+TEST
 
 
 #showtooltip Kill Command
